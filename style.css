@@ -66,6 +66,12 @@ p{
     border-radius: 5px;
 }
 
+div img{
+    object-fit:cover;
+    height: 250px;
+    margin: auto;
+}
+
 .desc h1 {
     float: left;
 }
@@ -73,6 +79,13 @@ p{
 img {
     width: fit-content;
     height: 400px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .icon {
@@ -86,10 +99,8 @@ img {
 }
 
 .table {
-    padding-left: 105px;
-    padding-right: 105px;
-    margin-top: 48px;
-    width: 80%;
+    width: 100%;
+    margin: auto;
 }
 
 button {
@@ -103,4 +114,68 @@ button {
 
 .card {
     margin-top: 48px;
+}
+
+footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.670);
+    height: 12vh;
+    align-content: center;
+}
+
+.buttons button{
+    margin: 8px;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 8px;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
