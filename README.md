@@ -6,6 +6,14 @@ come visualizzare il progetto:
 - aprire la powershell di window desiderata
 - scrivere 'git clone {il link copiato}'
 - andare nella cartella scelta all'inizio
+- entrare nella cartella its-esame-finale
+- doppio click su index.html
+
+OPPURE
+
+- scaricare il file ZIP clickando il tasto "code" verde in alto a destra
+- estrarre lo zip
+- entrare nella cartella its-esame-finale
 - doppio click su index.html
 
 per la visualizzazione del codice senza utilizzare editor di testo
